@@ -660,10 +660,25 @@ li.dropdown-submenu ul.dropdown-menu a {
 }
 
 .section-tout .row div {
-    height: 110%;
-    padding-left: 50px;
     background-color:#fff;
     box-shadow: 0px 2px 4px 0px rgba(0, 28, 36, 0.5);
+}
+
+.section-tout .container .row div.upstream {
+    height: 110%;
+    border-radius: 15px;
+}
+
+.downstream {
+    margin-top: 25px;
+}
+
+.section-tout .container .row div.downstream {
+    height: 80%;
+}
+
+.section-tout .container .row div.downstream a {
+    display: none;
 }
 
 .section-tout .row a {
